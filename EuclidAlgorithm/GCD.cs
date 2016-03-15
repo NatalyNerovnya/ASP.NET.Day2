@@ -46,7 +46,7 @@ namespace EuclidAndStainAlgorithm
         }
 
         /// <summary>
-        ///  Count GCD by Euclid Algorithm for three numbers. In Output window you can see required time for counting gcd for each couple of values
+        ///  Count GCD by Euclid Algorithm for three numbers. In Output window you can see required time for counting gcd for each couple of values and for all process
         /// </summary>
         /// <param name="a">First number</param>
         /// <param name="b">Second number</param>
@@ -61,6 +61,28 @@ namespace EuclidAndStainAlgorithm
             sw.Stop();
             Debug.WriteLine($"Required time for three numbers: {sw.Elapsed}");
             return gcd2;
+        }
+
+        /// <summary>
+        /// Count GCD by Euclid Algorithm for more than three numbers. In Output window you can see required time for counting gcd for each couple of values and for all values
+        /// </summary>
+        /// <param name="numbers">Any quantity of integer numbers</param>
+        /// <returns>Greatest common denominator of more than three numbers</returns>
+        public static int CountGCDEuclid(params int[] numbers)
+        {
+            if (numbers == null)
+                throw new ArgumentNullException();
+
+            int gcd = numbers[0];
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                gcd = CountGCDEuclid(gcd, numbers[i]);
+            }
+            sw.Stop();
+            Debug.WriteLine($"Required time for {numbers.Length} numbers: {sw.Elapsed}");
+            return gcd;
         }
 
         #endregion
