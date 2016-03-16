@@ -100,6 +100,11 @@ namespace EuclidAndStainAlgorithm
             return result2;
         }
 
+        /// <summary>
+        /// Count GCD by Stein algorithm for more than 3 arguments. In output window you can see required time
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns>Greatest common denominator</returns>
         public static int CountGCDStein(params int [] numbers)
         {
             if (numbers == null)
