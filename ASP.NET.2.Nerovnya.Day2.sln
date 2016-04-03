@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuclidAndStainAlgorithm", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuclidAndStainAlgorithmTest", "EuclidAndStainAlgorithmTest\EuclidAndStainAlgorithmTest.csproj", "{601784E5-F7E9-4C53-8FDF-5CA66667E658}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuclidAndStainAlgorithm.NUnitTests", "EuclidAndStainAlgorithm.NUnitTests\EuclidAndStainAlgorithm.NUnitTests.csproj", "{4E70E8FD-AA27-407F-B2C7-8B5F3CF9DDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuclidAndStainAlgorythm.Tests", "EuclidAndStainAlgorythm.Tests\EuclidAndStainAlgorythm.Tests.csproj", "{8A7972BF-287B-4605-BAEF-682F91B955BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{601784E5-F7E9-4C53-8FDF-5CA66667E658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{601784E5-F7E9-4C53-8FDF-5CA66667E658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{601784E5-F7E9-4C53-8FDF-5CA66667E658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E70E8FD-AA27-407F-B2C7-8B5F3CF9DDC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E70E8FD-AA27-407F-B2C7-8B5F3CF9DDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E70E8FD-AA27-407F-B2C7-8B5F3CF9DDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E70E8FD-AA27-407F-B2C7-8B5F3CF9DDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7972BF-287B-4605-BAEF-682F91B955BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7972BF-287B-4605-BAEF-682F91B955BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7972BF-287B-4605-BAEF-682F91B955BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7972BF-287B-4605-BAEF-682F91B955BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
